@@ -11,8 +11,12 @@ public class controlVersionesViernes {
 	        System.out.println("Introducir un número entero");
 	        numero = en.nextInt();
 	        
-	        System.out.println("El cuadrado de " + numero + " es " + numero*numero);
+	        System.out.println("El cuadrado de " + numero + " es " + calcularCuadrado(numero));
 
+	}
+
+	private static int calcularCuadrado(int numero) {
+		return numero*numero;
 	}
 
 }
